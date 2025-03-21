@@ -59,6 +59,7 @@ define(`prayer-team', `Prayer Team')
 define(`adam',        `Adam Głowacki')
 define(`elaine',      `Chiedza Magodo')
 define(`innocent',    `Innocent Chukwudi')
+define(`ronald',      `Ronald Piquero')
 
     <section class="section">
       <div class="container is-limited">
@@ -72,7 +73,7 @@ define(`innocent',    `Innocent Chukwudi')
               ii(`',      `Opening prayer',    adam)
               ii(`',      `Welcoming',         tsitsi)
               ii(`',      `Hymn 532',          `')
-              ii(`',      `Mission reading',   `')
+              ii(`',      `Mission reading',   ronald)
               ii(`',      `Hymn 538',          `')
               ii(`10:20', `Lesson discussion', innocent)
               ii(`11:00', `Closing prayer',    `')

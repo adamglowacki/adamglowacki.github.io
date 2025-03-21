@@ -55,6 +55,7 @@ define(`wendy',       `Awande Bhebhe')
 define(`barbrah',     `Barbrah Onguti')
 define(`trio',        `The Trio')
 define(`prayer-team', `Prayer Team')
+define(`adam',        `Adam Głowacki')
 
     <section class="section">
       <div class="container is-limited">
@@ -65,12 +66,13 @@ define(`prayer-team', `Prayer Team')
 
               ii(`9:45',  `Song service',      choristers)
               ii(`',      `Hymn 388',          `')
+              ii(`',      `Opening prayer',    adam)
               ii(`',      `Welcoming',         tsitsi)
               ii(`',      `Hymn 532',          `')
               ii(`',      `Mission reading',   `')
               ii(`',      `Hymn 538',          `')
               ii(`10:20', `Lesson discussion', mikolaj)
-              ii(`11:00', `Closing prayer',    ')
+              ii(`11:00', `Closing prayer',    `')
 
             </div>
           </div>
@@ -133,7 +135,7 @@ define(`prayer-team', `Prayer Team')
               ii(`14:00', `Opening prayer',        wendy)
               ii(`',      `Song service',          `')
               ii(`',      `Special song',          trio)
-              ii(`',      `Presentation',          babrah)
+              ii(`',      `Presentation',          barbrah)
               ii(`',      `Games',                 `')
               ii(`',      `Song service',          `')
               ii(`',      `Prayer session',        `Prayer Team')

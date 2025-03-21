@@ -43,7 +43,8 @@
       </div>
     </section>
 
-define(`s1', `<h1 class="title">Health Break</h1>')
+define(`s1', `<h1 class="title">$1</h1>')
+define(`s2', `<h2 class="subtitle"><i>$1</i></h2>')
 define(`ii', `<div class="columns"><div class="column is-2"><b>$1</b></div><div class="column is-6"><p>$2</p></div><div class="column is-4"><i>$3</i></div></div>')
 define(`choristers',  `Choristers')
 define(`tsitsi',      `Tsitsi Mashinya')
@@ -56,6 +57,7 @@ define(`barbrah',     `Barbrah Onguti')
 define(`trio',        `The Trio')
 define(`prayer-team', `Prayer Team')
 define(`adam',        `Adam Głowacki')
+define(`elaine',      `Chiedza Magodo')
 
     <section class="section">
       <div class="container is-limited">
@@ -78,8 +80,7 @@ define(`adam',        `Adam Głowacki')
           </div>
         </div>
 
-        <h1 class="title">Health Break</h1>
-        <h2 class="subtitle"><i></i></h2>
+        s1(`Health Break')
         <div class="tile is-ancestor">
           <div class="tile is-vertical is-parent">
             <div class="tile is-child box dark-bg">
@@ -91,8 +92,8 @@ define(`adam',        `Adam Głowacki')
           </div>
         </div>
 
-        <h1 class="title">Divine Service</h1>
-        <h2 class="subtitle"><i>Kudzwayi Larry Marara</i></h2>
+        s1(`Divine Service')
+        s2(`Kudzwayi Larry Marara')
         <div class="tile is-ancestor">
           <div class="tile is-vertical is-parent">
             <div class="tile is-child box dark-bg">
@@ -126,8 +127,8 @@ define(`adam',        `Adam Głowacki')
           </div>
         </div>
 
-        <h1 class="title">Afternoon Service</h1>
-        <h2 class="subtitle"><i>elaine</i></h2>
+        s1(`Afternoon Service')
+        s2(elaine)
         <div class="tile is-ancestor">
           <div class="tile is-vertical is-parent">
             <div class="tile is-child box dark-bg">

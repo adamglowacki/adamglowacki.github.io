@@ -112,8 +112,7 @@ define(`children',    `Children')
               ii(`',      `Special Song',               wendy)
               ii(`',      `Sermon',                     barbrah)
               ii(`',      `Hymn',                       choristers)
-              ii(`',      `Closing prayer',             barbrah)
-              ii(`',      `Prayer before lunch',        kudzwayi)
+              ii(`12:05', `Closing prayer',             barbrah)
 
             </div>
           </div>
@@ -124,7 +123,8 @@ define(`children',    `Children')
           <div class="tile is-vertical is-parent">
             <div class="tile is-child box dark-bg">
 
-              ii(`12:10', `We enjoy delicious food', `')
+              ii(`12:30', `Prayer before lunch',     kudzwayi)
+              ii(`',      `We enjoy delicious food', `')
 
             </div>
           </div>
